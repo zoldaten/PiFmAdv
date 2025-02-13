@@ -31,7 +31,7 @@ PiFmAdv also depends on the Linux `rpi-mailbox` driver, so you need a recent Lin
 
 **Important.** The binaries compiled for the Raspberry Pi 1 are not compatible with the Raspberry Pi 2/3, and conversely. Always re-compile when switching models, so do not skip the `make clean` step in the instructions below!
 
-sudo apt install libsoxr-dev
+```sudo apt install libsoxr-dev```
 
 Clone the source repository and run `make` in the `src` directory:
 
